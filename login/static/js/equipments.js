@@ -19,10 +19,4 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//cards.forEach((card) => {
-    //let title = card.querySelector(".card-title").innerText.toLowerCase();
-    //if (title.includes(input)) {
-      //card.parentElement.style.display = "block"; // Show matching cards
-    //} else {
-      //card.parentElement.style.display = "none"; // Hide non-matching cards
-    //}
+
