@@ -3,14 +3,19 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-weight: 700;
 }
 
 body {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
 .container {
@@ -42,8 +47,8 @@ form p {
 form label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #555;
-    font-weight: 500;
+    color: black;
+    font-weight: 700;
 }
 
 form input {
@@ -78,7 +83,8 @@ button:hover {
 p {
     text-align: center;
     margin-top: 1rem;
-    color: #666;
+    font-weight: bold;
+    color: black;
 }
 
 a {
